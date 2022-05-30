@@ -1,0 +1,41 @@
+.main_container{
+  width: 20vw;
+  height: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vw;
+}
+.text_field_label{
+  margin-top: 1vw;
+  font-size: 0.9vw;
+  .text_field{
+    margin-top: 0.2vw;
+    height: 2vw;
+    width: 20vw;
+    border: 0.01vw solid #e0e0e0;
+  }
+
+}
+
+#login{
+  font-size: 1vw;
+}
+#login-btn
+{
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  width: 20.4vw;
+  height: 2vw;
+  right: 60px;
+  top: 23px;
+  background-color: #D72130;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+    &:hover{
+      background-color: #bb131d;
+      transition: 0.1s;
+  }
+}
